@@ -1,7 +1,7 @@
 
 # Primeiro Teste com o Github
 # Meu Primeiro site Epelé
-# Apredendo a usar o Angular
+# Aprendendo a usar o Angular
 
 # Website
 
