@@ -1,0 +1,27 @@
+ .navbar{
+
+    overflow:hidden;
+    position: sticky;    
+    font-weight: bold;
+    font-style: italic;
+    background-color: black;
+}
+
+
+
+
+h1{
+    color: bisque;
+    font-size: larger;
+}
+
+a{
+    color:bisque;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+
+a:hover{
+    color:yellow
+}

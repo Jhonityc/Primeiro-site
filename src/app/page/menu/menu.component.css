@@ -1,0 +1,6 @@
+.banner{
+    background-image: url('../../../assets/img/gamer.png');
+    height: 750px;
+    background-position: center top;
+    background-size: cover;
+}
