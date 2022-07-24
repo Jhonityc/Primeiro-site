@@ -1,23 +1,32 @@
-<nav class="navbar navbar-expand-lg "> <!-- altera as propriedades da NAVBAR-->
-  <a class="navbar-brand" routerLink="">Epelé Company Games</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav .navbar ml-auto"> 
-      <li class="nav-item">
-        <a class="nav-link" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"routerLink="menu" routerLinkActive="active-link">Menu</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="about" routerLinkActive="active-link">Sobre</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Contato</a>
-      </li>
-    </ul>
+ <!-- Navbar  -->
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+  <div class="container">
+    <a class="navbar-brand" href="#">Epele Company Games</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="mx-auto"></div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact">Contact</a>
+        </li>
+        </ul>
+    </div>
   </div>
 </nav>
-

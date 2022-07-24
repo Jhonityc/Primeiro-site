@@ -1,27 +1,21 @@
- .navbar{
+ .container{
 
-    overflow:hidden;
-    position: sticky;    
-    font-weight: bold;
-    font-style: italic;
-    background-color: black;
+    overflow:hidden;    
+    font-family:monospace;    
+    font-weight: 20px;
+    font-style: bold;
+    
+}
+
+.navbar a {
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 
 
-
-h1{
-    color: bisque;
-    font-size: larger;
+.navbar li{
+    padding-left: 40px;
 }
 
-a{
-    color:bisque;
-    text-decoration: none;
-    padding: 10px 5px;
-    font-size: 18px;
-}
 
-a:hover{
-    color:yellow
-}

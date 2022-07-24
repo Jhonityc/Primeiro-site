@@ -1,0 +1,50 @@
+
+.banner img{
+    height: 100vh;        
+    background-size: cover;
+    background-position: center;
+    width: 100%;    
+}
+
+.banner .font h2{
+    height: 50px;
+
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    color: whitesmoke;
+
+
+
+}
+
+.container img{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+
+}
+
+.container p{
+    text-justify: right;
+    text-align: right;
+    column-count: 2;
+}
+
+.content #display-4{
+    color: rgb(67,126,208);   
+
+}
+
+.content{
+    z-index: inherit;
+    padding-top:50px;
+}
+
+.content .lead p{
+    letter-spacing: 2px;
+    text-align: center;
+    color:darkblue;
+    letter-spacing: 2px;
+    
+}
